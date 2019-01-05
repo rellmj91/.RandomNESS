@@ -96,7 +96,13 @@ function registeruser(){
 	return;
 }
 
+
 function loginuser(){
+	var loadcontent = setInterval(fadeincontent, 500);
+	loadpagecontent();
+	chooseword();
+	choosesurvey();
+/*
 	var user = document.getElementById("username");
 	var pass = document.getElementById("password");
 	var ucheck = localStorage.getItem("username");
@@ -119,6 +125,7 @@ function loginuser(){
 			return;
 		}
 	}
+*/
 }
 
 function collectregistration() {
