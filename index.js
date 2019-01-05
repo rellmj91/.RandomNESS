@@ -2,11 +2,11 @@ var contentopacity = 0;
 var num = Math.ceil(Math.random()*10);
 
 var weeklywords = [];
-weeklywords["Word 1"] = "definition here...bag";
-weeklywords["Word 2"] = "definition here...dope";
-weeklywords["Word 3"] = "definition here...cancel";
+weeklywords["Word 1"] = "definition here...Word 1";
+weeklywords["Word 2"] = "definition here...Word 2";
+weeklywords["Word 3"] = "definition here...Word 3";
 
-var weeklywordschoice = new Array("Bag","Dope","Cancel");
+var weeklywordschoice = new Array("Word 1","Word 2","Word 3");
 
 function loadpagecontent(){
 	var wow = document.getElementById("wordofweek");
