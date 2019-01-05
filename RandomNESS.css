@@ -1,0 +1,272 @@
+.bolder {font-weight: bolder;}
+.spacedown {margin-bottom: -75px;}
+.spaceup {margin-top: -75px;}
+.spaceleft {margin-left: -50px;}
+.spaceright {margin-right: 50px;}
+.italic {font-style: italic;}
+.border {border: 3px solid red;}
+.clearopacity {opacity: 1;}
+.clearfloat {clear: right;}
+.abouttitlestyle {margin-top: -3px; margin-bottom: -20px;}
+.aboutimgadjuster {margin-left: 100px; width: 40px; height: 40px; clear: right;}
+.centertext {text-align: center;}
+
+body {
+	background-color: white;
+	color: black;
+}
+
+
+#intro {
+	position: fixed;
+	top: 0%;
+	left: 35%;
+	font-size: 25px;
+}
+
+#intro .spacedown em {
+	font-style: italic;
+	font-size: 18px;
+	margin-left: -50px;
+}
+
+#intro .spacedown em2 {
+	color: blue;
+}
+#intro .spaceup em {
+	font-style: italic;
+	font-size: 18px;
+	margin-left: 150px;
+}
+
+#intro .spaceup em2 {
+	color: red;
+}
+
+#intro .bolder em {
+	animation-name: introanimation;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+
+@keyframes introanimation {
+	from{opacity: 0;}
+	to{opacity: 1 ;}
+}
+
+#aboutmecontent {
+	position: fixed;
+	top: 1%;
+	left: 72%;
+	background-color: white;
+	opacity: 0;
+	width: 365px;
+	border: 5px double black;
+	word-wrap: break-word;
+	padding: 3px;
+	display: none;
+	max-height: 500px;
+}
+
+#aboutmecontent p {
+	font-size: 12px;
+	opacity: 1;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#aboutmecontent em {
+	float: right;
+	width: 46px;	
+	height: 50px;
+	margin-top: -20px;
+	margin-left: -20px;
+	opacity: 0.2;
+}
+
+#maincontent em {
+	float: left;
+}
+
+#aboutmecontent em2 {
+	width: 30px;	
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+#timecontent{
+	font-weight: bold;
+	margin-top: -18px;
+	background-color: white;
+	width: 17%;
+}
+#wordofweek {
+	position: relative;
+	top: 0%;
+	left: 0%;
+	background-color: white;
+	opacity: 0;
+	min-height: 100px;
+	max-height: 150px;
+	width: 350px;
+	border: 5px double black;
+	word-wrap: break-word;
+	padding: 3px;
+	display: none;
+}
+
+
+#wordofweek p {
+		opacity: 1;
+		margin-left: 8px;
+		padding: 3px;
+		font-size: 14px;
+		font-weight: bolder;
+}
+
+#wordofweek em {
+		opacity: 1;
+		margin-left: 3px;
+		font-size: 14px;
+		font-weight: bolder;
+		color: gold;
+}
+
+#wow {margin-top: -20px;}
+#wow2 {margin-top: -5px;}
+
+#surveysays {
+	position: relative;
+	margin-top: 15px;
+	background-color: white;
+	opacity: 0;
+	width: 350px;
+	min-height: 150px;
+	max-height: 250px;
+	border: 5px double black;
+	word-wrap: break-word;
+	padding: 3px;
+	display: none;
+	color: black;
+}
+
+#surveysays p {
+		opacity: 1;
+		margin-left: 8px;
+		padding: 3px;
+		font-size: 14px;
+		font-weight: bolder;
+}
+
+#surveysays em {
+		opacity: 1;
+		font-size: 14px;
+		font-weight: bolder;
+		color: silver;
+}
+
+#surveyquestion {
+	
+}
+
+#hottopic {
+	position: fixed;
+	top: 58%;
+	left: 0.8%;
+	background-color: white;
+	opacity: 0;
+	width: 350px;
+	height: 250px;
+	border: 3px solid black;
+	word-wrap: break-word;
+	padding: 3px;
+	display: none;
+}
+
+#hottopic p {
+		opacity: 1;
+		margin-left: 8px;
+		padding: 3px;
+		font-size: 14px;
+		font-weight: bolder;
+}
+
+#hottopic em {
+		position: relative;
+		opacity: 1;
+		font-size: 14px;
+		font-weight: bolder;
+		color: red;
+		margin-top: -20px;
+		width: 15px;
+		height: 10px;
+		background: black;
+		margin-top: -25px;
+}
+
+#chatbox {
+/*
+	position: absolute;
+	top: 5%;
+	left: 5%;
+*/
+	width: 330px;
+	height: 230px;
+	background: rgba(0,0,0, 0.3);
+	overflow: auto;
+	margin-top: -2px;
+	margin-left: -7px;
+	border: 3px solid black;
+}
+
+#maincontent {
+	position: fixed;
+	left: 29.5%;
+	top: 20%;
+	background-color: white;
+	opacity: 0;
+	width: 550px;
+	height: 500px;
+	border: 5px double black;
+	word-wrap: break-word;
+	overflow: auto;
+	display: none;
+}
+
+#maincontent p {
+		opacity: 1;
+		margin-left: 8px;
+		padding: 3px;
+		font-size: 14px;
+		font-weight: bolder;
+}
+	
+
+#registration {
+	position: absolute;
+	top: 38%;
+	left: 35%;
+	background-color: white;
+	width: 350px;
+	height: 200px;
+	border: 5px double gold;
+	text-align: center;
+	display: none;
+}
+
+#logincontent {
+	position: absolute;
+	top: 38%;
+	left: 35%;
+	background-color: white;
+	width: 350px;
+	height: 200px;
+	border: 5px double gold;
+	text-align: center;
+	display: block;
+}
+
+label {
+	padding-top: 100px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>.RandomNESS</title>
+<link rel="stylesheet" href="RandomNESS.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="Randomness.js"></script>
+</head>
+<body>
+<div id="intro">
+	<span style="cursor:default">
+	<p class="spacedown"><em><em2>Welcome</em2> to a blog called</em></p><br>
+	<h1 class="bolder"><em>.RandomNESS</em></h1><br>
+	<p class="spaceup"><em>an <em2>awesome</em2> blog of (randomness).</em></p>
+	</span>
+</div>
+	
+<div id="logincontent">
+	<form>
+	 <input id="loginbutton" type="button" onclick="loginuser()" value="Proceed">
+	</form>
+	 <p>Registration disabled, Click Proceed!</p>
+</div>
+
+<div id="registration">
+Registration<br>
+	<form>
+	 <label>Username:</label><br>
+	 <input id="rusername" type="text" name="username" autofocus required /><br>
+	 <label>Password:</label><br>
+	 <input id="rpassword" type="password" name="password" required /><br>
+	 <input id="registerbutton" type="button" onclick="collectregistration()" value="Register">
+	</form>
+
+</div>
+	
+<div id="aboutmecontent">
+<h4 class="abouttitlestyle">About Me:</h4><br/>
+<p><em><img src="images.jpg"/></em>Aspiring Programmer. Currently with alot of time on my hands and when you have time you have options and opportunity! So far, I've indulged myself in a plautura of languages such
+as; Javascript, HTML/HTML5, Java, PHP and currently dabbing into SQL for database knowledge. I've created this site purely for my self development in which you can be entertained, educated and interactive. Win Win.</p></br>
+<h4 class="abouttitlestyle">Contact:</h4><br/>
+<p> <img src="gmailicon.jpg" /><em2> <a href="mailto:rellmj91@gmail.com">Rellmj91@gmail.com</a><br />
+	<img width="28" height="28" src="discordicon.jpg"/> <em2>(Discord)</em2><br />
+	<img width="28" height="28" src="facebookicon.jpg" /><em2>(Facebook)</em2><br />
+	<img src="youtubeicon.jpg"/><em2>(Youtube)</em2></p><br/>
+	<em2>(LinkedIn)</em2></p><br/>
+	<em2>(Github)</em2></p><br/>
+
+<h4 class="abouttitlestyle">Donations:</h4><br/>
+<p> <img width="30" height="30" src="cashmeicon.jpg"/><em2>(Cash App)</em2></p>
+
+</div>
+
+<div id="wordofweek">
+	<div id="timecontent">Time</div>
+	<div id="weekcontent">Day</div>
+	<em>.RandomNESS Word of the WEEK:<br></em>
+	 <h1 id="wow2">word</h1>
+	 <p id="wow">Word of the week will display a random word weekly and the definition of the word.</p>
+</div>
+
+<div id="surveysays">
+	<em>&Survey Says:</em><br />
+	<p id="surveyquestion">This area of content will display a survey which will be optional for users to participate in. </p><br \>
+	<input type="radio" name="surquest" value="test" />  <em2 id="surquest1"></em2><br \>
+	<input align="right" type="radio" name="surquest" value="test2" />  <em2 id="surquest2"></em2><br \>
+	<input type="radio" name="surquest" value="test3" />  <em2 id="surquest3"></em2><br \>
+	<input align="right" type="radio" name="surquest" value="test4" />  <em2 id="surquest4"></em2>
+</div>
+
+<div id="hottopic">
+	<em>Hot Topic:</em><br />
+	<div id="chatbox">
+	<p>Will be the blogs public messenger giving the user opportunity to communicate about post.</p>
+	</div>
+</div>
+
+<div id="maincontent">
+	<p>Blog Content will go here! All the post, comments, pictures and details about the site will be displayed here. This window will be scrollable allowing you to view pervious blogs
+	 quick and conviently. </p>
+	 <div class="post-author">
+		 <div class="author-pic"><em><img width="50" height="50" src="mypic.jpg"></em></div>
+		Terell M. Jones<br \>
+		Date:<br \>
+		Title: (Important) You will be able to reference to all post by title name.<br \>
+			<div class="post-content">
+				<p>This is how the post of the content for the titled blog will be displayed.</p>
+			</div>
+		</div>
+		
+
+	 </div>
+</div>
+
+
+</body>
+</html>
